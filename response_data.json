@@ -1,0 +1,666 @@
+{
+    "success": true,
+    "code": null,
+    "message": null,
+    "requestId": "T4683d77a48b64ef0842fbecfcef4ba9f",
+    "data": {
+        "currentPage": 1,
+        "pageSize": 10,
+        "totalCount": 177,
+        "pageCount": 18,
+        "dataList": [
+            {
+                "id": "RAW_d66bf4",
+                "notExist": null,
+                "originalTitle": "EP157: How to Learn Backend Development?",
+                "title": "EP157: 后端开发学习指南",
+                "oneSentenceSummary": "ByteByteGo Newsletter 深入探讨后端开发学习路径、Git 基础、虚拟化与容器化以及 Netflix 分布式计数器，助力开发者提升后端技术。",
+                "summary": "本期 ByteByteGo Newsletter 涵盖了后端开发的关键技术点。首先，通过思维导图结构化地展示了后端开发学习路径，包括编程语言选择、数据库应用、API 设计、服务器部署和 DevOps 实践。其次，简化了 Git 工作流，阐述了从工作目录到远程仓库的关键步骤，强调版本控制的重要性。然后，对比了虚拟化和容器化技术，分析了它们在资源利用率和隔离性上的差异。最后，深入探讨了 Netflix 如何通过分层架构和 Cassandra 等技术构建高可用的分布式计数器系统，以支持实时决策并保证最终一致性。本文旨在帮助开发者系统性地掌握后端技术，并了解大型系统设计的实践案例。",
+                "tags": [
+                    "后端开发",
+                    "系统设计",
+                    "Git",
+                    "虚拟化",
+                    "容器化"
+                ],
+                "mainPoints": [
+                    {
+                        "point": "后端开发涉及广泛领域，需系统性学习。",
+                        "explanation": "后端开发知识体系庞大，开发者需要掌握编程语言、数据库、API、服务器和 DevOps 等多个领域的知识，才能构建稳定、高效的系统。"
+                    },
+                    {
+                        "point": "Git 工作流是开发者进行版本控制和团队协作的基础。",
+                        "explanation": "理解 Git 的基本原理和常用命令，可以帮助开发者更好地管理代码变更、解决冲突，并与团队成员高效协作。"
+                    },
+                    {
+                        "point": "虚拟化和容器化是两种不同的资源隔离技术，各有优劣。",
+                        "explanation": "虚拟化提供更强的隔离性，但资源开销较大；容器化更轻量级，资源利用率更高，但隔离性相对较弱。选择哪种技术取决于具体的应用场景和需求。"
+                    },
+                    {
+                        "point": "Netflix 通过分层架构实现分布式计数器的高性能和可扩展性。",
+                        "explanation": "Netflix 的分布式计数器系统采用分层架构，结合事件日志、聚合和缓存等技术，实现了高性能、可扩展和最终一致性，能够支持高并发的实时决策。"
+                    }
+                ],
+                "keyQuotes": [
+                    "后端开发需要掌握多个方面的知识。",
+                    "学习 Git 是每个开发者的基本技能之一。",
+                    "虚拟化技术使用虚拟机监控器在一个物理服务器上创建多个虚拟机，每个虚拟机都有自己的操作系统。",
+                    "容器化是一种轻量级的虚拟化方法，它在共享同一操作系统的隔离环境（容器）中运行应用程序。",
+                    "Netflix 通过分层架构实现分布式计数器的高性能和可扩展性"
+                ],
+                "url": "https://blog.bytebytego.com/p/ep157-how-to-learn-backend-development",
+                "domain": "blog.bytebytego.com",
+                "cover": "https://imagedelivery.net/qGOFcc1O8XwTZW3W1JAHHg/12b202dd-7cb3-4221-8423-79977c70ae00/cover",
+                "language": "en_US",
+                "languageDesc": "英文",
+                "sourceId": "SOURCE_996ae6",
+                "sourceName": "ByteByteGo Newsletter",
+                "sourceImage": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5507d97a-c736-4de2-852b-fab5b91d0796%2Ffavicon.ico",
+                "mainDomain": "Programming_Technology",
+                "mainDomainDesc": "软件编程",
+                "aiSubCategory": "OTHERS",
+                "aiSubCategoryDesc": "其他",
+                "category": "Programming_Technology",
+                "categoryDesc": "软件编程",
+                "resourceType": "ARTICLE",
+                "resourceTypeDesc": "Article",
+                "score": 80,
+                "readCount": null,
+                "wordCount": 923,
+                "readTime": 4,
+                "authors": [
+                    "ByteByteGo"
+                ],
+                "publishTimeStamp": 1743867030000,
+                "publishDateStr": "今天",
+                "publishDateTimeStr": "2025-04-05 15:30:30",
+                "qualified": null,
+                "processFlowStatus": "COMPLETED",
+                "processFlowStatusDesc": "Completed"
+            },
+            {
+                "id": "RAW_8b8841",
+                "notExist": null,
+                "originalTitle": "Cloudflare Security Week 2025: From Quantum Cryptography to AI Labyrinth",
+                "title": "Cloudflare 安全周 2025：量子密码学、AI 迷宫及其他",
+                "oneSentenceSummary": "Cloudflare 安全周 2025 亮点：量子安全、AI 驱动的机器人缓解和增强监控。",
+                "summary": "Cloudflare 安全周 2025 展示了网络安全的新进展，包括基于零信任平台的抗量子保护、通过云安全访问代理 (CASB) 增强的 Cloudflare One SASE 云存储扫描能力，以及自动化僵尸网络防护。AI 迷宫作为一项创新，利用 AI 生成内容防御未经授权的 AI 爬虫。同时，Cloudflare 强调密码安全和增强的监控与多因素认证。",
+                "tags": [
+                    "网络安全",
+                    "Cloudflare",
+                    "AI 迷宫",
+                    "零信任",
+                    "SASE"
+                ],
+                "mainPoints": [
+                    {
+                        "point": "Cloudflare 通过零信任隧道实现抗量子安全。",
+                        "explanation": "组织可以通过 Cloudflare 的零信任平台隧道传输网络流量，从而保护网络流量免受量子威胁，避免单独的应用程序升级。"
+                    },
+                    {
+                        "point": "AI 迷宫利用 AI 生成内容防御未经授权的 AI 爬虫。",
+                        "explanation": "这种新方法减慢并混淆了忽略“no crawl”指令的 AI 机器人，可能会浪费机器人资源并创建无限循环。"
+                    },
+                    {
+                        "point": "Cloudflare 通过多因素认证和日志浏览器增强安全防护。",
+                        "explanation": "Cloudflare 通过增强多因素认证和日志浏览器工具来提高安全性。"
+                    }
+                ],
+                "keyQuotes": [
+                    "组织可以通过 Cloudflare 的零信任平台隧道传输公司网络流量，保护其免受量子攻击。无需单独升级每个应用程序、系统或网络连接，简化了安全防护。",
+                    "通过即时和持续扫描，用户可以识别身份和访问管理 (IAM) 中的错误配置、存储桶和对象设置，并检测云存储对象中的敏感信息，如社保号码、信用卡号或符合特定正则表达式的模式。",
+                    "这个百分比代表每天数亿次的身份验证请求，这些请求来自机器人和人类。虽然不是每次尝试都成功，但现实流量中泄露凭证的庞大数量说明了密码重用是多么普遍。"
+                ],
+                "url": "https://www.infoq.com/news/2025/04/cloudflare-security-ai-labyrinth/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+                "domain": "infoq.com",
+                "cover": "https://res.infoq.com/news/2025/04/cloudflare-security-ai-labyrinth/en/headerimage/generatedHeaderImage-1743582760177.jpg",
+                "language": "en_US",
+                "languageDesc": "英文",
+                "sourceId": "SOURCE_f152e8",
+                "sourceName": "InfoQ",
+                "sourceImage": "https://cdn.infoq.com/statics_s2_20240220072222/favicon.ico",
+                "mainDomain": "Business_Tech",
+                "mainDomainDesc": "商业科技",
+                "aiSubCategory": "OTHERS",
+                "aiSubCategoryDesc": "其他",
+                "category": "Programming_Technology",
+                "categoryDesc": "软件编程",
+                "resourceType": "ARTICLE",
+                "resourceTypeDesc": "Article",
+                "score": 84,
+                "readCount": null,
+                "wordCount": 656,
+                "readTime": 3,
+                "authors": [
+                    "Renato Losio"
+                ],
+                "publishTimeStamp": 1743811200000,
+                "publishDateStr": "今天",
+                "publishDateTimeStr": "2025-04-05 00:00:00",
+                "qualified": false,
+                "processFlowStatus": "COMPLETED",
+                "processFlowStatusDesc": "Completed"
+            },
+            {
+                "id": "RAW_e8ceba",
+                "notExist": null,
+                "originalTitle": "AWS CodeBuild Adds Parallel Test Execution for Faster CI",
+                "title": "AWS CodeBuild 增加并行测试执行，显著加速持续集成",
+                "oneSentenceSummary": "AWS CodeBuild 增加并行测试执行，显著减少持续集成构建时间，提高开发者效率。",
+                "summary": "AWS CodeBuild 引入并行测试执行，旨在解决持续集成 (CI) 管道中因项目复杂性增加而导致的测试时间过长问题。开发者可配置构建过程，将测试套件拆分并在多个独立的构建节点上并行运行。CodeBuild 提供环境变量以实现智能测试分配，支持平均分配（equal distribution）和稳定性分片策略。通过配置 buildspec.xml 文件中的 `batch fanout` 部分并使用 `codebuild-tests-run` 工具即可启用并行测试。这降低了成本并加速了反馈循环。测试报告会自动合并，以简化分析。演示表明，对于具有 1，800 个测试的 Python 项目，总测试时间从 35 分钟减少到 6 分钟。此功能与所有测试框架兼容，并且在提供 CodeBuild 的所有 AWS 区域均可用，无需额外费用。",
+                "tags": [
+                    "持续集成",
+                    "AWS CodeBuild",
+                    "并行测试",
+                    "持续集成/持续交付",
+                    "自动化测试"
+                ],
+                "mainPoints": [
+                    {
+                        "point": "并行测试执行显著减少持续集成构建时间并提高开发效率。",
+                        "explanation": "并发运行测试套件，减少等待时间，加速反馈循环，从而提高开发者生产力，加速新功能交付。"
+                    },
+                    {
+                        "point": "CodeBuild 提供灵活的分片策略和环境变量，以实现智能测试分配。",
+                        "explanation": "支持平均分配和稳定性策略，并提供 `CODEBUILD_CURRENT_SHARD_FILES` 环境变量，方便开发者根据不同测试框架的需求进行配置。"
+                    },
+                    {
+                        "point": "自动合并测试报告简化了结果分析，有助于问题定位。",
+                        "explanation": "CodeBuild 自动合并并行测试报告为统一摘要，提供聚合的通过/失败状态、测试时长和失败详情，方便开发者快速定位问题。"
+                    }
+                ],
+                "keyQuotes": [
+                    "并行测试让我们事半功倍。它是保持敏捷和高效的关键工具，帮助我们建立快速反馈环。",
+                    "演示项目的 1，800 个测试每个需要一秒钟才能完成。当我按顺序运行此测试套件时，需要 35 分钟才能完成。当我在十个计算环境中并行运行测试套件时，包括配置环境的时间在内，需要 6 分钟才能完成。",
+                    "并行运行花费了顺序运行时间的 17.9 %。"
+                ],
+                "url": "https://www.infoq.com/news/2025/04/aws-codebuild-parallel-test/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+                "domain": "infoq.com",
+                "cover": "https://res.infoq.com/news/2025/04/aws-codebuild-parallel-test/en/headerimage/generatedHeaderImage-1743378426210.jpg",
+                "language": "en_US",
+                "languageDesc": "英文",
+                "sourceId": "SOURCE_f152e8",
+                "sourceName": "InfoQ",
+                "sourceImage": "https://cdn.infoq.com/statics_s2_20240220072222/favicon.ico",
+                "mainDomain": "Programming_Technology",
+                "mainDomainDesc": "软件编程",
+                "aiSubCategory": "OTHERS",
+                "aiSubCategoryDesc": "其他",
+                "category": "Programming_Technology",
+                "categoryDesc": "软件编程",
+                "resourceType": "ARTICLE",
+                "resourceTypeDesc": "Article",
+                "score": 89,
+                "readCount": null,
+                "wordCount": 585,
+                "readTime": 3,
+                "authors": [
+                    "Steef-Jan Wiggers"
+                ],
+                "publishTimeStamp": 1743811200000,
+                "publishDateStr": "今天",
+                "publishDateTimeStr": "2025-04-05 00:00:00",
+                "qualified": false,
+                "processFlowStatus": "COMPLETED",
+                "processFlowStatusDesc": "Completed"
+            },
+            {
+                "id": "RAW_e4edc9",
+                "notExist": null,
+                "originalTitle": "How SREs and GenAI Work Together to Decrease eBay's Downtime: An Architect's Insights at KubeCon EU",
+                "title": "SRE 和生成式 AI 如何协同减少 eBay 停机：KubeCon EU 架构师洞见",
+                "oneSentenceSummary": "eBay 通过结合机器学习和大型语言模型，优化事件响应流程，显著减少了系统停机时间。",
+                "summary": "eBay 首席架构师 Vijay Samuel 在欧洲 KubeCon 大会上分享了 eBay 如何利用机器学习和大型语言模型 (LLM) 来增强其站点可靠性工程师 (SRE) 团队的事件响应能力。面对日益增长的微服务和海量数据，传统的人工事件分诊效率低下且容易出错。为了解决这个问题，eBay 首先引入 Groot 系统，该系统能进行异常检测，但无法处理新型事件，因此 eBay 引入 LLM。他们发现 LLM 在处理宽泛上下文时容易产生幻觉，因此将其应用于小量信息的处理，构建了解释器工具，用于提供跟踪、日志指标和变更的解释。为了处理更复杂的信息，他们借鉴 Uber 的 CRISP 白皮书，提取关键路径，并通过少量样本提示让算法学习 SRE 的分诊方式，采用“分而治之”的策略。最终，他们将这些能力组合成更复杂的评估机制，实现了对复杂仪表板的分析和解释。Samuel 总结说，LLM 并非万能药，但可以用于简单的推理、总结、内部知识搜索和代码生成。他还提到，广泛采用 OpenTelemetry 和查询语言标准化将有助于整个行业。",
+                "tags": [
+                    "事件响应",
+                    "SRE 自动化",
+                    "大型语言模型",
+                    "站点可靠性工程",
+                    "微服务"
+                ],
+                "mainPoints": [
+                    {
+                        "point": "LLM 在具有精确上下文的场景下能发挥更大价值",
+                        "explanation": "实验表明，当提示词宽泛时，LLM 的输出具有很大的随机性，而当提示词具有非常明确的上下文时，输出会更准确。"
+                    },
+                    {
+                        "point": "通过构建解释器工具，LLM 可用于提供跟踪、日志指标和变更的解释",
+                        "explanation": "解释器专注于少量信息，提供更多上下文，是可观察性机制的基础构建块，可以有效辅助问题调查。"
+                    },
+                    {
+                        "point": "提取关键路径并通过少量样本提示，可提升 LLM 在复杂场景下的性能",
+                        "explanation": "通过借鉴 Uber 的 CRISP 白皮书，提取关键路径，并通过少量样本提示让算法学习 SRE 的分诊方式，可以有效解决 LLM 在处理复杂信息时的局限性。"
+                    }
+                ],
+                "keyQuotes": [
+                    "在提出假设之前，我应该查看多少个仪表板？",
+                    "大型语言模型并非万能药，但应充分利用其优势：如简单的推理、总结、内部知识搜索，甚至在某些时候进行代码生成。",
+                    "广泛采用 OpenTelemetry 和查询语言标准化将有助于整个行业做出更直接的假设。"
+                ],
+                "url": "https://www.infoq.com/news/2025/04/llm-incident-response/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+                "domain": "infoq.com",
+                "cover": "https://cdn.infoq.com/statics_s1_20250328105021-1/styles/static/images/logo/logo-big.jpg",
+                "language": "en_US",
+                "languageDesc": "英文",
+                "sourceId": "SOURCE_f152e8",
+                "sourceName": "InfoQ",
+                "sourceImage": "https://cdn.infoq.com/statics_s2_20240220072222/favicon.ico",
+                "mainDomain": "Artificial_Intelligence",
+                "mainDomainDesc": "人工智能",
+                "aiSubCategory": "DEV",
+                "aiSubCategoryDesc": "AI 开发",
+                "category": "Programming_Technology",
+                "categoryDesc": "软件编程",
+                "resourceType": "ARTICLE",
+                "resourceTypeDesc": "Article",
+                "score": 90,
+                "readCount": 1,
+                "wordCount": 647,
+                "readTime": 3,
+                "authors": [
+                    "Olimpiu Pop"
+                ],
+                "publishTimeStamp": 1743811200000,
+                "publishDateStr": "今天",
+                "publishDateTimeStr": "2025-04-05 00:00:00",
+                "qualified": false,
+                "processFlowStatus": "COMPLETED",
+                "processFlowStatusDesc": "Completed"
+            },
+            {
+                "id": "RAW_ec525f",
+                "notExist": null,
+                "originalTitle": "Vibe coding with GitHub Copilot: Agent mode and MCP support rolling out to all VS Code users",
+                "title": "使用 GitHub Copilot：Agent Mode 和 MCP 支持面向所有 VS Code 用户推出",
+                "oneSentenceSummary": "GitHub Copilot 推出 Agent Mode，支持 MCP，集成 Anthropic、Google 和 OpenAI 模型，并提供新的 Pro+ 订阅计划。",
+                "summary": "为了庆祝微软成立 50 周年，GitHub Copilot 推出 Agent Mode。新版本为所有 VS Code 用户提供 MCP 支持。Agent Mode 通过自动化任务和自我修复增强编码能力。MCP 则提供对外部工具和数据源的访问。此版本还包括 Copilot 代码审查代理和下一步编辑建议功能。用户可以通过更新 VS Code 并在设置中启用它来激活 Agent Mode。Pro+ 计划为个人开发者提供每月 1500 个高级请求，并可以访问包括 GPT-4.5 在内的高级模型。",
+                "tags": [
+                    "GitHub Copilot",
+                    "Agent Mode",
+                    "MCP",
+                    "VS Code",
+                    "AI 辅助编程"
+                ],
+                "mainPoints": [
+                    {
+                        "point": "Agent Mode 通过增强工具和服务的上下文关联性，将想法转化为代码。",
+                        "explanation": "Agent Mode 具有自我修复功能。它能根据简单提示，完成跨多个文件的子任务，从而高效实现主要目标。"
+                    },
+                    {
+                        "point": "MCP 为 Agent Mode 配备了处理任务的工具，从而提供交互式和上下文感知的编码支持。",
+                        "explanation": "借助 MCP，Agent Mode 可以理解数据库模式和查询网络，从而更好地辅助开发者。"
+                    },
+                    {
+                        "point": "GitHub Copilot Pro+ 计划提供更多高级请求并可以访问高级模型。",
+                        "explanation": "新的 Pro+ 计划为个人提供每月 1500 个高级请求，并可以访问包括 GPT-4.5 在内的高级模型。"
+                    }
+                ],
+                "keyQuotes": [
+                    "GitHub Copilot 的代理能力正在增强。从今天开始，它将增加对您的工具和服务的上下文感知，并由世界领先的模型提供支持。",
+                    "MCP 允许你为 Agent Mode 提供所需的上下文和功能，以便更好地辅助你，就像为智能设备提供一个 USB 接口。",
+                    "现在，有了 GitHub Copilot——最初是一家开发者平台公司，现在是一个任何人都可以成为开发者的平台。"
+                ],
+                "url": "https://azure.microsoft.com/en-us/blog/vibe-coding-with-github-copilot-agent-mode-and-mcp-support-rolling-out-to-all-vs-code-users/",
+                "domain": "azure.microsoft.com",
+                "cover": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2025/04/BlogHeader_Bento_004.webp",
+                "language": "en_US",
+                "languageDesc": "英文",
+                "sourceId": "SOURCE_a08882",
+                "sourceName": "Microsoft Azure Blog",
+                "sourceImage": "https://c.s-microsoft.com/favicon.ico?v2",
+                "mainDomain": "Artificial_Intelligence",
+                "mainDomainDesc": "人工智能",
+                "aiSubCategory": "DEV",
+                "aiSubCategoryDesc": "AI 开发",
+                "category": "Programming_Technology",
+                "categoryDesc": "软件编程",
+                "resourceType": "ARTICLE",
+                "resourceTypeDesc": "Article",
+                "score": 90,
+                "readCount": 2,
+                "wordCount": 1206,
+                "readTime": 5,
+                "authors": [
+                    "GitHub Copilot Team"
+                ],
+                "publishTimeStamp": 1743807384000,
+                "publishDateStr": "昨天",
+                "publishDateTimeStr": "2025-04-04 22:56:24",
+                "qualified": true,
+                "processFlowStatus": "COMPLETED",
+                "processFlowStatusDesc": "Completed"
+            },
+            {
+                "id": "RAW_82ebc4",
+                "notExist": null,
+                "originalTitle": "4 ways media and entertainment companies are using Gemini",
+                "title": "Gemini 在媒体和娱乐行业的四大应用",
+                "oneSentenceSummary": "介绍了 Google 的 Gemini 在媒体和娱乐公司内容改编、个性化内容发现、简化创意工作流程和定制营销广告四个方面的应用。",
+                "summary": "本文探讨了媒体和娱乐公司如何利用 Google 的 Gemini 模型来优化运营，提高效率并降低成本。文章突出了四个主要应用领域：1) Gemini 如何通过翻译、转录和配音等自动化任务，以及将长篇内容转化为短格式内容，来帮助改编内容并扩大受众；2) Gemini 如何通过 AI 搜索提供个性化的内容推荐，从而提高用户互动和保留率；3) Gemini 如何简化创意工作流程，例如通过优化内容库和自动化视频内容搜索和标记；4) Gemini 如何通过创建高度定向的营销活动和个性化广告内容来改进营销和广告。文章通过 Formula E 和 FOX Sports 等公司的具体案例，展示了 Gemini 在这些领域的实际应用和效果。",
+                "tags": [
+                    "Gemini",
+                    "谷歌云平台",
+                    "多模态",
+                    "内容改编",
+                    "个性化推荐"
+                ],
+                "mainPoints": [
+                    {
+                        "point": "Gemini 通过自动化任务扩展内容覆盖，触达更广泛的受众",
+                        "explanation": "Gemini 能够自动翻译、转录和配音，并能将长篇内容转化为短格式，从而覆盖更广泛的受众，开辟新的收入来源。"
+                    },
+                    {
+                        "point": "利用 Gemini 的 AI 搜索实现个性化内容发现",
+                        "explanation": "Gemini 赋能的 AI 搜索可以根据个人偏好和心情提供实时推荐，从而提高用户互动和内容完成率。"
+                    },
+                    {
+                        "point": "Gemini 简化了媒体和娱乐行业的创意工作流程",
+                        "explanation": "Gemini 能够优化内容库，提取重要的元数据，并改进内容标题和描述，从而简化重复性的人工任务。"
+                    },
+                    {
+                        "point": "Gemini 助力创建高度定向的营销活动，从而提升广告效果",
+                        "explanation": "Gemini 能够解读多模态内容，并将其与不同的受众偏好相关联，从而创建更具吸引力和效果的营销活动。"
+                    }
+                ],
+                "keyQuotes": [
+                    "生成式人工智能为媒体和娱乐企业创造了改变创意流程和吸引全球受众的新途径。",
+                    "Gemini 原生的多模态和长上下文能力帮助创作者为新的媒介和受众重新利用内容。",
+                    "在引入 AI 搜索后，Starz 观众与内容互动的可能性提高了 40%，完成观看的可能性提高了 70%。",
+                    "现在，员工可以使用自然语言立即搜索其近 200 万个视频和图像的库，从而大大减少了查找特定素材和为全球受众制作新内容所需的时间。"
+                ],
+                "url": "https://blog.google/products/gemini/gemini-cloud-media-entertainment/",
+                "domain": "blog.google",
+                "cover": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GeminiinEntertainment_SocialShare_1920x1080_Q.width-1300.png",
+                "language": "en_US",
+                "languageDesc": "英文",
+                "sourceId": "SOURCE_40cd8f",
+                "sourceName": "The Keyword (blog.google) ",
+                "sourceImage": "https://blog.google/static/blogv2/images/google.png",
+                "mainDomain": "Artificial_Intelligence",
+                "mainDomainDesc": "人工智能",
+                "aiSubCategory": "PRODUCT",
+                "aiSubCategoryDesc": "AI 产品",
+                "category": "Programming_Technology",
+                "categoryDesc": "软件编程",
+                "resourceType": "ARTICLE",
+                "resourceTypeDesc": "Article",
+                "score": 80,
+                "readCount": 4,
+                "wordCount": 493,
+                "readTime": 2,
+                "authors": [
+                    "Anshul Kapoor"
+                ],
+                "publishTimeStamp": 1743803396000,
+                "publishDateStr": "昨天",
+                "publishDateTimeStr": "2025-04-04 21:49:56",
+                "qualified": false,
+                "processFlowStatus": "COMPLETED",
+                "processFlowStatusDesc": "Completed"
+            },
+            {
+                "id": "RAW_327d65",
+                "notExist": null,
+                "originalTitle": "Jenkins 11 个使用技巧，90%以上的人没用过",
+                "title": "Jenkins 11 个使用技巧，90%以上的人没用过",
+                "oneSentenceSummary": "本文介绍了 11 个 Jenkins 实用技巧，涵盖配置、优化、问题解决和插件使用等方面。",
+                "summary": "本文提供 11 个实用的 Jenkins 技巧，旨在帮助用户高效解决 Jenkins 使用过程中遇到的常见问题，包括解决插件兼容性、优化 JVM 配置、以及统一脚本管理等。内容涵盖插件兼容性问题、安全策略修改、自定义访问路径、git clone 失败、构建失败邮件通知、JVM 内存配置优化、磁盘空间占用减少、构建时间设置、全局属性设置、统一管理脚本和轻量备份等方面。每个技巧都结合具体场景和解决方法，具有一定的实践指导意义。通过应用这些技巧，用户可以提升 Jenkins 的稳定性和效率。",
+                "tags": [
+                    "Jenkins",
+                    "CI/CD",
+                    "DevOps",
+                    "运维",
+                    "插件"
+                ],
+                "mainPoints": [
+                    {
+                        "point": "解决 Jenkins 插件兼容性问题，确保构建流程顺畅。",
+                        "explanation": "通过切换流水线风格、手动修改配置文件或降级 Jenkins 版本解决 Performance 插件与 Jenkins 版本不兼容的问题。"
+                    },
+                    {
+                        "point": "通过修改安全策略，解决 Robot Framework 报告预览问题。",
+                        "explanation": "通过 Startup Trigger 和 Groovy 插件修改 CSP，允许加载测试报告所需的 CSS 和图片文件。"
+                    },
+                    {
+                        "point": "通过优化配置和清理策略，解决 Jenkins 磁盘空间占用问题。",
+                        "explanation": "通过丢弃旧的构建配置、定时清理 tomcat 日志等方式，减少 Jenkins 占用的磁盘空间。"
+                    },
+                    {
+                        "point": "通过统一脚本管理和轻量备份，提升 Jenkins 的可维护性和安全性。",
+                        "explanation": "使用 Managed script 插件统一管理脚本，使用 ThinBackup 插件进行轻量备份，方便脚本的统一管理和维护，以及配置信息的备份和还原。"
+                    }
+                ],
+                "keyQuotes": [
+                    "借助 Robot Framework Plugin，可将 Robot Framework 项目更好的集成到 Jenkins 中",
+                    "需要安装 Managed script 插件，该插件是 为了在管理文件时创建 Script 脚本文件 ，然后在 Job 中配置直接使用，方便脚本的统一管理和维护",
+                    "使用 ThinBackup 插件，允许我们对 Jenkins 配置信息进行全量或增量备份，由于 插件不会保存构建历史和构建工件 ，所备份过程更为快捷，并且无需关闭 Jenkins 服务器"
+                ],
+                "url": "https://mp.weixin.qq.com/s/E462t0Ga1mu6ivJqHS9DcA",
+                "domain": "mp.weixin.qq.com",
+                "cover": "https://imagedelivery.net/qGOFcc1O8XwTZW3W1JAHHg/6642dad1-f84b-4f2d-68b0-5c30c490a700/cover",
+                "language": "zh_CN",
+                "languageDesc": "中文",
+                "sourceId": "SOURCE_a234fa",
+                "sourceName": "dbaplus社群",
+                "sourceImage": "http://wx.qlogo.cn/mmhead/ufVMVgCvafJ9E548RXicwc4cOtTJjEfu0lgrC6U6iaUTxtvICXpoW0s3zSaLcEgEBDiaU1DLiaibZgso/0",
+                "mainDomain": "Programming_Technology",
+                "mainDomainDesc": "软件编程",
+                "aiSubCategory": "OTHERS",
+                "aiSubCategoryDesc": "其他",
+                "category": "Programming_Technology",
+                "categoryDesc": "软件编程",
+                "resourceType": "ARTICLE",
+                "resourceTypeDesc": "Article",
+                "score": 80,
+                "readCount": null,
+                "wordCount": 3283,
+                "readTime": 14,
+                "authors": [
+                    "dbaplus社群"
+                ],
+                "publishTimeStamp": 1743788719000,
+                "publishDateStr": "昨天",
+                "publishDateTimeStr": "2025-04-04 17:45:19",
+                "qualified": false,
+                "processFlowStatus": "COMPLETED",
+                "processFlowStatusDesc": "Completed"
+            },
+            {
+                "id": "RAW_7fb2eb",
+                "notExist": null,
+                "originalTitle": "New capabilities in Azure AI Foundry to build advanced agentic applications ",
+                "title": "Azure AI Foundry：新增高级 AI 代理构建功能",
+                "oneSentenceSummary": "Azure AI Foundry 通过新增代理框架、AI 红队代理和 VS Code 扩展，增强 AI 代理应用的开发和安全。",
+                "summary": "文章介绍了 Azure AI Foundry 的新功能，旨在帮助开发者更轻松地构建和扩展高级 AI 代理。主要更新包括：统一代理框架，简化多代理系统的编排；AI 红队代理，用于自动识别 AI 模型的安全风险；以及 Visual Studio Code 扩展，允许开发者在 IDE 中构建、测试和部署基于代理的应用程序。此外，GitHub Copilot 代理模式增强，可执行更复杂的任务，成为开发者的编程助手。这些更新旨在提高 AI 开发效率，并确保 AI 系统的安全性和可靠性。",
+                "tags": [
+                    "AI 代理",
+                    "Azure AI Foundry",
+                    "Semantic Kernel",
+                    "AI 安全",
+                    "AI 红队"
+                ],
+                "mainPoints": [
+                    {
+                        "point": "AI 红队代理：自动识别 AI 模型安全风险",
+                        "explanation": "该代理通过集成 Azure AI Foundry 的评估系统和 Microsoft Security 的 PyRIT 框架，系统地探测 AI 模型，以发现潜在的安全风险。"
+                    },
+                    {
+                        "point": "Azure AI Foundry 代理框架：简化多代理系统协调",
+                        "explanation": "Semantic Kernel 的扩展使得代理更容易协调，显著减少了开发者需要编写的代码量，从而降低了开发的复杂性。"
+                    },
+                    {
+                        "point": "Visual Studio Code 扩展：允许开发者在 IDE 中构建和部署 AI 代理应用",
+                        "explanation": "开发者可以直接在 Visual Studio Code 中构建、测试和部署基于代理的应用程序，无需切换环境，从而提高开发效率。"
+                    }
+                ],
+                "keyQuotes": [
+                    "That's why we introduced [**Azure AI Foundry**](https://ai.azure.com/) last fall---a unified platform for models， tools， and workflows to help developers and enterprises design， customize， and manage AI apps and agents.",
+                    "Available today， the Semantic Kernel**agent framework** makes it easier for agents to coordinate and dramatically reduces the code developers need to write.",
+                    "To address this， we're introducing the [**AI Red Teaming Agent**](https://aka.ms/AIredteaming)---now in public preview.",
+                    "Developers can now build， test， and deploy agent-based applications entirely within their Integrated Development Environment (IDE)---no context switching required.",
+                    "Whether streamlining business processes， transforming customer interactions， or pioneering multi-agent applications， [Azure AI Foundry](https://ai.azure.com/) provides the powerful infrastructure developers need to create intelligent agents at scale."
+                ],
+                "url": "https://azure.microsoft.com/en-us/blog/new-capabilities-in-azure-ai-foundry-to-build-advanced-agentic-applications/",
+                "domain": "azure.microsoft.com",
+                "cover": "https://azure.microsoft.com/en-us/blog/wp-content/uploads/2025/04/FI-4.3.png",
+                "language": "en_US",
+                "languageDesc": "英文",
+                "sourceId": "SOURCE_a08882",
+                "sourceName": "Microsoft Azure Blog",
+                "sourceImage": "https://c.s-microsoft.com/favicon.ico?v2",
+                "mainDomain": "Artificial_Intelligence",
+                "mainDomainDesc": "人工智能",
+                "aiSubCategory": "DEV",
+                "aiSubCategoryDesc": "AI 开发",
+                "category": "Programming_Technology",
+                "categoryDesc": "软件编程",
+                "resourceType": "ARTICLE",
+                "resourceTypeDesc": "Article",
+                "score": 91,
+                "readCount": null,
+                "wordCount": 1042,
+                "readTime": 5,
+                "authors": [
+                    "Asha Sharma"
+                ],
+                "publishTimeStamp": 1743785751000,
+                "publishDateStr": "昨天",
+                "publishDateTimeStr": "2025-04-04 16:55:51",
+                "qualified": false,
+                "processFlowStatus": "COMPLETED",
+                "processFlowStatusDesc": "Completed"
+            },
+            {
+                "id": "RAW_cbef62",
+                "notExist": null,
+                "originalTitle": "Vibe coding with GitHub Copilot: Agent mode and MCP support rolling out to all VS Code users",
+                "title": "GitHub Copilot 赋能高效编码：Agent 模式与 MCP 支持面向所有 VS Code 用户开放",
+                "oneSentenceSummary": "GitHub Copilot 推出增强的 Agent 模式，支持 MCP 及多种高级模型，显著提升开发效率。",
+                "summary": "GitHub Copilot 推出增强的 Agent 模式，通过 MCP 支持访问更多工具和服务，助力开发者将想法转化为代码。该模式能自动执行跨文件子任务，并具备运行时错误自修复能力。GitHub 还发布了开源本地 MCP 服务器，支持开发者将 GitHub 功能添加到任何支持 MCP 的 LLM 工具中。Copilot 新增对 Anthropic Claude 3.5、Google Gemini 2.0 Flash 等高级模型的支持，并通过 Pro+ 计划提供更多高级请求配额。Agent 模式可用于代码自动修复、Web 应用构建等。",
+                "tags": [
+                    "GitHub Copilot",
+                    "Agent 模式",
+                    "AI Agent",
+                    "MCP",
+                    "Anthropic Claude"
+                ],
+                "mainPoints": [
+                    {
+                        "point": "Agent 模式通过 MCP 扩展了 Copilot 的能力",
+                        "explanation": "MCP 允许 Agent 模式访问更多工具和服务上下文，使其能够更智能地执行复杂的开发任务，例如理解数据库 schema 或查询网络。"
+                    },
+                    {
+                        "point": "多种高级模型选择提升 Copilot 的性能和灵活性",
+                        "explanation": "Copilot 支持多种高级模型，开发者可以根据具体需求选择最合适的模型，从而优化性能和效率。"
+                    },
+                    {
+                        "point": "新的 Pro+ 计划为个人开发者提供更多资源",
+                        "explanation": "Pro+ 计划提供更多的每月高级请求配额和对最佳模型的访问权限，从而满足个人开发者对 AI 辅助开发的更高需求。"
+                    },
+                    {
+                        "point": "Copilot 通过 MCP 构建了一个不断增长的生态系统",
+                        "explanation": "GitHub 拥有庞大的 MCP 生态系统，开发者可以发现和使用各种 MCP 服务器，从而扩展 Agent 模式的功能。"
+                    }
+                ],
+                "keyQuotes": [
+                    "GitHub Copilot is getting a whole lot more agentic with increased context of your tools and services， powered by the world's leading models， starting today.",
+                    "MCP allows you to equip agent mode with the context and capabilities it needs to help you， like a USB port for intelligence.",
+                    "What started out as a developer platform company is a platform where anyone can be a developer."
+                ],
+                "url": "https://github.blog/news-insights/product-news/github-copilot-agent-mode-activated/",
+                "domain": "github.blog",
+                "cover": "https://github.blog/wp-content/uploads/2025/04/BlogHeader_Bento_004.png",
+                "language": "en_US",
+                "languageDesc": "英文",
+                "sourceId": "SOURCE_9315eb",
+                "sourceName": "The GitHub Blog",
+                "sourceImage": "https://github.githubassets.com/favicon.ico",
+                "mainDomain": "Artificial_Intelligence",
+                "mainDomainDesc": "人工智能",
+                "aiSubCategory": "PRODUCT",
+                "aiSubCategoryDesc": "AI 产品",
+                "category": "Programming_Technology",
+                "categoryDesc": "软件编程",
+                "resourceType": "ARTICLE",
+                "resourceTypeDesc": "Article",
+                "score": 91,
+                "readCount": 7,
+                "wordCount": 1148,
+                "readTime": 5,
+                "authors": [
+                    "Thomas Dohmke"
+                ],
+                "publishTimeStamp": 1743783911000,
+                "publishDateStr": "昨天",
+                "publishDateTimeStr": "2025-04-04 16:25:11",
+                "qualified": true,
+                "processFlowStatus": "COMPLETED",
+                "processFlowStatusDesc": "Completed"
+            },
+            {
+                "id": "RAW_d35496",
+                "notExist": null,
+                "originalTitle": "Understanding Vulnerabilities and Exploits for Ethical Hackers",
+                "title": "理解白帽黑客的漏洞与漏洞利用",
+                "oneSentenceSummary": "本文解释了网络安全中漏洞和漏洞利用的概念，并介绍了如何通过示例和工具识别、运用和防御它们。",
+                "summary": "本文详细解释了网络安全中的漏洞和漏洞利用，这对于白帽黑客至关重要。它将漏洞定义为攻击者可以利用的软件或硬件中的缺陷，并将漏洞利用定义为用于运用这些漏洞的技术或代码。EternalBlue、Heartbleed 和 BlueKeep 等真实案例说明了未修补漏洞的严重后果。本文是白帽黑客的实用指南，演示了如何使用 SearchSploit 快速查找特定漏洞的漏洞利用，以及如何使用 Metasploit 自动化渗透测试。最后，文章总结了一些重要的安全建议，包括保持软件更新、使用强密码以及定期扫描系统中的漏洞。",
+                "tags": [
+                    "网络安全",
+                    "漏洞",
+                    "渗透测试",
+                    "渗透测试工具",
+                    "漏洞扫描"
+                ],
+                "mainPoints": [
+                    {
+                        "point": "漏洞是攻击者可以利用的软件或硬件中的缺陷。",
+                        "explanation": "这些缺陷的范围可以从弱密码到过时的软件，从而使攻击者可以攻陷系统。"
+                    },
+                    {
+                        "point": "漏洞利用是利用漏洞的一种技术或代码。",
+                        "explanation": "漏洞利用可以是用于自动化攻击的预先编写的脚本，例如暴力破解攻击弱密码。"
+                    },
+                    {
+                        "point": "Metasploit 是一个强大的自动化渗透测试框架。",
+                        "explanation": "Metasploit 简化了扫描漏洞、选择漏洞利用和执行攻击的过程，使其对白帽黑客和网络犯罪分子都具有价值。"
+                    }
+                ],
+                "keyQuotes": [
+                    "漏洞是攻击者可以利用的软件或硬件中的缺陷。",
+                    "漏洞利用是利用漏洞的一种技术或代码。",
+                    "零日漏洞利用尤其危险，因为它们使攻击者在修复程序发布之前先发制人。",
+                    "理解漏洞和漏洞利用是防御网络威胁的第一步。"
+                ],
+                "url": "https://www.freecodecamp.org/news/vulnerabilities-vs-exploits-for-ethical-hackers/",
+                "domain": "freecodecamp.org",
+                "cover": "https://cdn.hashnode.com/res/hashnode/image/upload/v1743631883009/63a15afa-c901-4445-b646-cd9a4c44e964.png",
+                "language": "en_US",
+                "languageDesc": "英文",
+                "sourceId": "SOURCE_074370",
+                "sourceName": "freeCodeCamp.org",
+                "sourceImage": "https://cdn.freecodecamp.org/universal/favicons/favicon.ico",
+                "mainDomain": "Programming_Technology",
+                "mainDomainDesc": "软件编程",
+                "aiSubCategory": "OTHERS",
+                "aiSubCategoryDesc": "其他",
+                "category": "Programming_Technology",
+                "categoryDesc": "软件编程",
+                "resourceType": "ARTICLE",
+                "resourceTypeDesc": "Article",
+                "score": 86,
+                "readCount": null,
+                "wordCount": 1172,
+                "readTime": 5,
+                "authors": [
+                    "Manish Shivanandhan"
+                ],
+                "publishTimeStamp": 1743779326000,
+                "publishDateStr": "昨天",
+                "publishDateTimeStr": "2025-04-04 15:08:46",
+                "qualified": false,
+                "processFlowStatus": "COMPLETED",
+                "processFlowStatusDesc": "Completed"
+            }
+        ]
+    }
+}
