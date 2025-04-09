@@ -1,10 +1,9 @@
 import scrapy
 
 class BestblogsItem(scrapy.Item):
+    # 已有的字段
     url = scrapy.Field()
-    title = scrapy.Field()
     author = scrapy.Field()
-    publish_time = scrapy.Field()
-    content = scrapy.Field()
-    tags = scrapy.Field()
-    score = scrapy.Field()
+    title = scrapy.Field()
+    time = scrapy.Field()
+    article_content = scrapy.Field()

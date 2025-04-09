@@ -46,7 +46,6 @@ class TechflowSpiderPipeline:
             spider.logger.info(f"Kafka消息发送成功: {adapter['url']}")
         except Exception as e:
             spider.logger.error(f"Kafka消息发送失败: {str(e)}")
-        print(item)
         return item
 
     # def close_spider(self, spider):

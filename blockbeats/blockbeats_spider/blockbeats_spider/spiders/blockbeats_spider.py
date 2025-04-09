@@ -1,14 +1,9 @@
 import scrapy
 from urllib.parse import urljoin
+from ..items import BlockbeatsSpiderItem
 import re
-
-
-class BlockbeatsSpiderItem(scrapy.Item):
-    url = scrapy.Field()
-    title = scrapy.Field()
-    time = scrapy.Field()
-    author = scrapy.Field()
-
+import redis
+import trafilatura  # 导入 trafilatura 库
 
 class BlockbeatsSpider(scrapy.Spider):
     name = "blockbeats"
@@ -35,6 +30,26 @@ class BlockbeatsSpider(scrapy.Spider):
             "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"
         }
         self.time_pattern = re.compile(r'\d{4}-\d{2}-\d{2} \d{2}:\d{2}')
+        self.redis_host = None
+        self.redis_port = None
+        self.redis_db = None
+        self.redis_url_key = None
+        self.redis_client = None
+
+    @classmethod
+    def from_crawler(cls, crawler, *args, **kwargs):
+        spider = cls(*args, **kwargs)
+        spider._set_crawler(crawler)
+        spider.redis_host = crawler.settings.get('REDIS_HOST', 'localhost')
+        spider.redis_port = crawler.settings.getint('REDIS_PORT', 6379)
+        spider.redis_db = crawler.settings.getint('REDIS_DB', 0)
+        spider.redis_url_key = crawler.settings.get('REDIS_URL_KEY', 'blockbeats-url')
+        spider.redis_client = redis.StrictRedis(
+            host=spider.redis_host,
+            port=spider.redis_port,
+            db=spider.redis_db
+        )
+        return spider
 
     def start_requests(self):
         yield scrapy.Request(
@@ -51,19 +66,25 @@ class BlockbeatsSpider(scrapy.Spider):
         # 拼接完整URL并生成请求
         for href in article_links[:5]:
             full_url = urljoin(response.url, href)
-            yield scrapy.Request(
-                url=full_url,
-                callback=self.parse_article,
-                headers=self.headers,
-                meta={'dont_merge_cookies': True}
-            )
+            if not self.redis_client.sismember(self.redis_url_key, full_url):
+                self.redis_client.sadd(self.redis_url_key, full_url)
+                yield scrapy.Request(
+                    url=full_url,
+                    callback=self.parse_article,
+                    headers=self.headers,
+                    meta={'dont_merge_cookies': True}
+                )
 
     def parse_article(self, response):
         try:
             item = BlockbeatsSpiderItem()
 
-            # 提取标题
-            item['title'] = response.css('h1::text').get().strip() if response.css('h1::text').get() else None
+            # 使用 Trafilatura 提取文章内容
+            extracted_text = trafilatura.extract(response.text)  # 调用 trafilatura.extract 方法提取内容
+            item['article_content'] = extracted_text
+
+            # 提取标题，直接取前200个字
+            item['title'] = extracted_text[:200].strip() if extracted_text else "未找到主题信息"
 
             # 提取时间
             item['time'] = None

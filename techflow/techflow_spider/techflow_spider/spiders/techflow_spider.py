@@ -97,6 +97,4 @@ class TechflowSpider(scrapy.Spider):
             item['title'] = extracted_text[first_chinese_index:first_chinese_index + 200].strip()
         else:
             item['title'] = "未找到主题信息"
-
-        print(item)
         yield item

@@ -6,15 +6,26 @@
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+import os
 
+from dotenv import load_dotenv
+
+# 加载 .env 文件
+load_dotenv()
 BOT_NAME = "ournetwork_spider"
 
 SPIDER_MODULES = ["ournetwork_spider.spiders"]
 NEWSPIDER_MODULE = "ournetwork_spider.spiders"
 
+# redis
+REDIS_HOST = os.getenv('REDIS_HOST', 'localhost')
+REDIS_PORT = int(os.getenv('REDIS_PORT', 6379))
+REDIS_DB = int(os.getenv('REDIS_DB', 0))
+REDIS_URL_KEY = os.getenv('REDIS_URL_KEY', 'ournetwork:url')
+
 #kafka
-KAFKA_BOOTSTRAP_SERVERS = 'localhost:9092'  # Kafka服务器地址
-KAFKA_TOPIC = 'test-topic'  # 目标主题名称
+KAFKA_BOOTSTRAP_SERVERS = os.getenv('KAFKA_BOOTSTRAP_SERVERS', 'localhost:9092')  # Kafka服务器地址
+KAFKA_TOPIC = os.getenv('KAFKA_TOPIC', 'test-topic')  # 目标主题名称
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "ournetwork_spider (+http://www.yourdomain.com)"
 

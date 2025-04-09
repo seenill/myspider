@@ -1,4 +1,6 @@
 import json
+import uuid
+
 from itemadapter import ItemAdapter
 from confluent_kafka import Producer
 from scrapy.utils import spider
@@ -25,9 +27,12 @@ class KafkaPipeline:
     def process_item(self, item, spider):
         adapter = ItemAdapter(item)
         message = {
+            "msg_id": uuid.uuid4().hex,
+            "time": adapter['time'],
             'url': adapter['url'],
             'title': adapter['title'],
             'author': adapter['author'],
+            'article_content': adapter['article_content']
         }
         print(item)
         try:

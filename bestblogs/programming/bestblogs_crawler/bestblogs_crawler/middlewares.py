@@ -1,10 +1,10 @@
 import random
 from scrapy import signals
-from fake_useragent import UserAgent
+# from fake_useragent import UserAgent
 
 class RandomUserAgentMiddleware:
-    def __init__(self):
-        self.ua = UserAgent()
+    # def __init__(self):
+    #     self.ua = UserAgent()
 
     def process_request(self, request, spider):
         request.headers['User-Agent'] = self.ua.random

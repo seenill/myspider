@@ -6,6 +6,24 @@
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+import os
+
+from dotenv import load_dotenv
+
+# 加载 .env 文件
+load_dotenv()
+
+
+# kafka
+KAFKA_BOOTSTRAP_SERVERS = os.getenv('KAFKA_BOOTSTRAP_SERVERS')
+KAFKA_TOPIC = os.getenv('KAFKA_TOPIC')
+
+# redis
+REDIS_HOST = os.getenv('REDIS_HOST', 'localhost')
+REDIS_PORT = int(os.getenv('REDIS_PORT', 6379))
+REDIS_DB = int(os.getenv('REDIS_DB', 0))
+REDIS_URL_KEY = os.getenv('REDIS_URL_KEY', 'blockbeats-url')
+
 
 BOT_NAME = "blockbeats_spider"
 
@@ -19,9 +37,7 @@ NEWSPIDER_MODULE = "blockbeats_spider.spiders"
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
 LOG_LEVEL = "WARNING"
-#kafka
-KAFKA_BOOTSTRAP_SERVERS = 'localhost:9092'  # Kafka服务器地址
-KAFKA_TOPIC = 'test-topic'  # 目标主题名称
+
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32

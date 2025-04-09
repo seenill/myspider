@@ -1,0 +1,9 @@
+services:
+  techflow-spider:
+    build:
+      context: ..
+      dockerfile: ../../Dockerfile
+    env_file: .env
+    volumes:
+      - .:/app  # 将本地项目目录挂载到容器内的/app目录，方便调试和修改代码，可根据需求调整
+    restart: always  # 设置容器重启策略，always表示总是重启

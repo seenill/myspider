@@ -7,7 +7,9 @@ import scrapy
 
 
 class BlockbeatsSpiderItem(scrapy.Item):
+    # 已有的字段
     url = scrapy.Field()
+    author = scrapy.Field()
     title = scrapy.Field()
     time = scrapy.Field()
-    author = scrapy.Field()
+    article_content = scrapy.Field()
